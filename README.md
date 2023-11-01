@@ -1,2 +1,2 @@
-# front-end-tasks-ITI-
- summer training 
+# front-end-tasks-
+
