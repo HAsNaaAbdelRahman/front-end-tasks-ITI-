@@ -7,6 +7,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS_Folder/style.css">
 
+            div {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 1px solid blue;
+    font-size: 80px;
+}
+
+div {
+    line-height: 0;
+    visibility: hidden;
+}
+
+div::after {
+    
+    content: "Elzero";
+    color: black;
+    visibility: visible;
+    background-color: #eee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    text-indent: 0;
+    line-height: initial;
+    width: 400px;
+    position: absolute;
+    left : 50%;
+    top: 50%;
+    margin: -200px 0 0 -200px ;
+
+}
+    </style>
+
 </head>
 
 <body>
